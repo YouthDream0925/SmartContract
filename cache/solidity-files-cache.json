@@ -71,6 +71,77 @@
       "artifacts": [
         "StoreV1"
       ]
+    },
+    "F:\\trackingApp\\SmartContract\\contracts\\Store.sol": {
+      "lastModificationDate": 1677172304752,
+      "contentHash": "b52df0ee16abc01e4ad3ae9255d5f442",
+      "sourceName": "contracts/Store.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context",
+        "Store"
+      ]
+    },
+    "F:\\trackingApp\\SmartContract\\contracts\\StoreV1.sol": {
+      "lastModificationDate": 1677168554757,
+      "contentHash": "648a3925eb28f25bbccb154ae7b7d203",
+      "sourceName": "contracts/StoreV1.sol",
+      "solcConfig": {
+        "version": "0.8.1",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StoreV1"
+      ]
     }
   }
 }
